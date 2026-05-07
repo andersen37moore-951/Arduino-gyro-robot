@@ -26,7 +26,7 @@ This project is an autonomous robot that uses an MPU6050 gyroscope to maintain d
 
 ## Code
 
-Main logic is in `Final_project.ino`
+Main logic is in `Arduino-gryo-robot.ino`
 
 ## Key Concept
 
