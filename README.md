@@ -1,10 +1,11 @@
 # Arduino-gyro-robot
 Navigating an Arduino robot using MPU6050 for gyro-based navigation
-# Arduino Gyro-Based Robot 
+
 
 ## Overview
 
-This project is an autonomous robot that uses an MPU6050 gyroscope to maintain direction and perform precise turns.
+This project is an autonomous Arduino robot that uses an MPU6050 gyroscope for real-time direction correction and precise turning. By using yaw feedback instead of timed delays, the robot achieves more accurate and reliable navigation.
+
 
 ## Features
 
@@ -20,20 +21,16 @@ This project is an autonomous robot that uses an MPU6050 gyroscope to maintain d
 * Motor Driver
 * DC Motors
 
-## Demo
-
-## Demo
-# Arduino Gyro-Based Robot 🚗
 
 ## Demo
 [▶️ Watch Robot Demo](https://youtu.be/vVrv0_XRITA)
 
-## Overview
-...
+
 ## Code
 
 Main logic is in `Arduino-gryo-robot.ino`
 
+
 ## Key Concept
 
-Uses real-time yaw feedback to correct movement instead of relying on timed delays.
+This project uses closed-loop control based on gyroscope (yaw) feedback. The robot continuously compares its current heading to a target direction and adjusts motor output to correct any error. This enables accurate navigation and turning without relying on unreliable time-based movement.
