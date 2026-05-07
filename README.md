@@ -22,7 +22,8 @@ This project is an autonomous robot that uses an MPU6050 gyroscope to maintain d
 
 ## Demo
 
-(https://youtu.be/vVrv0_XRlTA)
+## Demo
+[▶️ Watch Robot Demo](https://youtu.be/vVrv0_XRITA)
 
 ## Code
 
