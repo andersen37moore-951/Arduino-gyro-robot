@@ -25,6 +25,10 @@ This project is an autonomous Arduino robot that uses an MPU6050 gyroscope for r
 * Motor Driver
 * DC Motors
 
+## Libraries Used
+- Wire.h
+- MPU6050 (I2Cdevlib)
+
 ## Code
 
 Main logic is in `Arduino-gryo-robot.ino`
@@ -33,3 +37,8 @@ Main logic is in `Arduino-gryo-robot.ino`
 ## Key Concept
 
 This project uses closed-loop control based on gyroscope (yaw) feedback. The robot continuously compares its current heading to a target direction and adjusts motor output to correct any error. This enables accurate navigation and turning without relying on unreliable time-based movement.
+
+## Challenges & Improvements
+- Gyroscope drift required calibration and angle normalization
+- Motor speed differences caused heading errors that required correction logic
+- Future improvement: implement PID control for smoother correction
